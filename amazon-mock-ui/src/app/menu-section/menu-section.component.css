@@ -1,0 +1,40 @@
+/* How to target html tag -> by <tagName> */
+p {
+    text-decoration: underline;
+}
+
+/* how to target class ->  by .<className> */
+.container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menuHeader {
+    
+}
+
+.manuList {
+    padding-left: 12px;
+    display: flex;
+}
+
+.menuItem {
+    list-style: none;
+    padding-right: 20px;
+}
+
+.menuItem a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menuItem a:hover {
+    border: 2px solid #ffffff;
+}
+
+/* How to target id -> by #<id> */
+#menuSection {
+    background-color: #232f3e;
+    color: #ffffff;
+    padding-bottom: 1px;
+}
+
